@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Attendee from "../components/Attendee";
+import React from 'react'
+import PropTypes from 'prop-types'
+import Attendee from '../components/Attendee'
 
 const AttendeeList = ({ attendees, time }) => {
   return (
