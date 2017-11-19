@@ -1,13 +1,13 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
-import { connect } from "react-redux";
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
+import { connect } from 'react-redux'
 import {
   selectUser,
   fetchAppointmentIfNeeded,
   invalidateAppointment
-} from "../actions";
-import Picker from "../components/Picker";
-import AttendeeList from "../components/AttendeeList";
+} from '../actions'
+import Picker from '../components/Picker'
+import AttendeeList from '../components/AttendeeList'
 
 class App extends Component {
   static propTypes = {
@@ -51,7 +51,7 @@ class App extends Component {
           <div className="container">
             <h1 className="display-3">Master Calendar</h1>
             <p className="lead">
-              This simple example written uses React / Redux to display meeting
+              This simple example uses React / Redux to display meeting
               attendees.
             </p>
             {lastUpdated && (
@@ -111,4 +111,4 @@ const mapStateToProps = state => {
   };
 };
 
-export default connect(mapStateToProps)(App);
+export default connect(mapStateToProps)(App)
