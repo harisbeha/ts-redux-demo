@@ -1,0 +1,6 @@
+node_modules/
+plugins/
+dist/
+package-lock.json
+log/
+.DS_STORE
